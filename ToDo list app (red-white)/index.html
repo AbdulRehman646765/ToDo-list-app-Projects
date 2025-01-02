@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List app</h1>
+      <p id="error">fuuui</p>
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Enter Your Task"
+        autofocus
+      />
+      <button id="add-btn" onclick="addTask()">Add</button>
+      <button id="save-btn" onclick="saveTask()">Save</button>
+
+      <div id="task-text" class="task-text"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
